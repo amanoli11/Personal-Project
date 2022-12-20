@@ -9,6 +9,7 @@ import {
   Row,
 } from "antd";
 import { UserOutlined } from "@ant-design/icons";
+import Dashboard from "../Pages/Dashboard";
 
 const { Header, Content, Sider, Footer } = Layout;
 
@@ -81,6 +82,7 @@ const ApplicationLayout = (props: { children?: JSX.Element | null }) => {
           </Breadcrumb>
           <div style={{ background: "#fff", padding: 24, height: "85vh" }}>
             {props.children}
+            <Dashboard/>
           </div>
         </Content>
         {/* <Footer style={{ textAlign: "center", maxHeight: "2vh" }}>
