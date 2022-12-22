@@ -11,7 +11,7 @@ const CardComponent = (props:details) => {
     <> 
         <Card
           hoverable
-          style={{ width: 240 }}
+          style={{ width: 150 }}
           cover={
             <img
               alt="example"
