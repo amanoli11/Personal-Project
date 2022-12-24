@@ -10,7 +10,6 @@ const Dashboard = () => {
       <Layout>
         <Content>
           <div>
-            <h1>Choose fucking category</h1>
             <header className="App-header">
               <Categories />
             </header>
