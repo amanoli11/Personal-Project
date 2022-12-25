@@ -4,7 +4,7 @@ import ApplicationLayout from "./Layout/Layout";
 import { Router } from "react-router";
 import { BrowserRouter } from "react-router-dom";
 import { Navigate } from "react-router-dom";
-import Dashboard from "./Pages/Dashboard";
+import Dashboard from "./Pages/Dashboard/Dashboard";
 
 function App() {
   const currentPage = useRoutes([

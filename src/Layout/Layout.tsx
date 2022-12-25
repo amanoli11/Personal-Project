@@ -9,7 +9,7 @@ import {
   Row,
 } from "antd";
 import { UserOutlined } from "@ant-design/icons";
-import Dashboard from "../Pages/Dashboard";
+import Dashboard from "../Pages/Dashboard/Dashboard";
 
 const { Header, Content, Sider, Footer } = Layout;
 

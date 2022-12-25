@@ -1,0 +1,14 @@
+.headerSection{
+    height: 3rem;
+}
+
+.titleSection{
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+}
+.searchSection{
+    margin-top: 2%;
+    position: absolute;
+    right: 4%;
+}

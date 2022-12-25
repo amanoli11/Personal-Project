@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function OrderList() {
   return (
-    <div>OrderList</div>
+    <div style={{ width: 500 }}>OrderList</div>
   )
 }

@@ -1,4 +1,4 @@
-import CardComponent from "../components/CardComponent";
+import CardComponent from "../../components/CardComponent";
 
 const FoodItems = () => {
   return (

@@ -1,6 +1,7 @@
-import { Tabs } from "antd";
+import { AutoComplete, Col, Input, Row, Tabs } from "antd";
 import FoodItems from "./FoodItems";
 import { AndroidOutlined, AppleOutlined } from "@ant-design/icons";
+import "../../styles/categories.css";
 
 const Categories = () => {
   const onChange = (key: string) => {
@@ -8,8 +9,31 @@ const Categories = () => {
   };
   return (
     <div>
-      <h1>Choose fucking category</h1>
-
+      <div className="headerSection">
+        <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+          <Col className="gutter-row" span={12}>
+            <div className="titleSection">
+              <div>
+                <h1>Choose fucking category</h1>
+              </div>
+            </div>
+          </Col>
+          <Col className="gutter-row" span={12}>
+            <div className="searchSection">
+             <div>
+              <AutoComplete
+                popupClassName="certain-category-search-dropdown"
+                dropdownMatchSelectWidth={500}
+                style={{ width: 250 }}
+                // options={options}
+              >
+                <Input.Search size="large" placeholder="Search" />
+              </AutoComplete>
+              </div>
+            </div>
+          </Col>
+        </Row>
+      </div>
       <Tabs
         defaultActiveKey="1"
         onChange={onChange}
