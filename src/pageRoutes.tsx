@@ -1,4 +1,4 @@
-import Dashboard from "./Pages/Dashboard/Dashboard";
+import Dashboard from "./Pages/Dashboard";
 
 const pageRoutes = [
   { path: "dashboard", element: <Dashboard /> },

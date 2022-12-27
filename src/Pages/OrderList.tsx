@@ -1,5 +1,5 @@
 import React from "react";
-import '../../styles/orderList.css'
+import "../styles/orderList.css";
 
 export default function OrderList() {
   return (
