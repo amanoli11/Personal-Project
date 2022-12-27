@@ -20,15 +20,15 @@ const Categories = () => {
           </Col>
           <Col className="gutter-row" span={12}>
             <div className="searchSection">
-             <div>
-              <AutoComplete
-                popupClassName="certain-category-search-dropdown"
-                dropdownMatchSelectWidth={500}
-                style={{ width: 250 }}
-                // options={options}
-              >
-                <Input.Search size="large" placeholder="Search" />
-              </AutoComplete>
+              <div>
+                <AutoComplete
+                  popupClassName="certain-category-search-dropdown"
+                  dropdownMatchSelectWidth={500}
+                  style={{ width: 250 }}
+                  // options={options}
+                >
+                  <Input.Search size="large" placeholder="Search" />
+                </AutoComplete>
               </div>
             </div>
           </Col>
@@ -41,31 +41,97 @@ const Categories = () => {
           {
             label: (
               <span>
-                <AndroidOutlined />
-                All
+                <div className="iconSection">
+                  <img
+                    src="https://www.w3schools.com/howto/img_avatar.png"
+                    alt="All"
+                    className="iconStyle"
+                  />
+                </div>
+                <div className="CategoryStyle">All</div>
               </span>
             ),
             key: "1",
             children: <FoodItems />,
           },
           {
-            label: `Food`,
+            label: (
+              <span>
+                <div className="iconSection">
+                  <img
+                    src="https://www.w3schools.com/howto/img_avatar.png"
+                    alt="All"
+                    className="iconStyle"
+                  />
+                </div>
+                <div className="CategoryStyle">Food</div>
+              </span>
+            ),
             key: "2",
             children: <FoodItems />,
           },
           {
-            label: `Snack`,
+            label: (
+              <span>
+                <div className="iconSection">
+                  <img
+                    src="https://www.w3schools.com/howto/img_avatar.png"
+                    alt="All"
+                    className="iconStyle"
+                  />
+                </div>
+                <div className="CategoryStyle">Snack</div>
+              </span>
+            ),
             key: "3",
             children: `Content of Tab Pane 3`,
           },
           {
-            label: `Ice Cream`,
+            label: (
+              <span>
+                <div className="iconSection">
+                  <img
+                    src="https://www.w3schools.com/howto/img_avatar.png"
+                    alt="All"
+                    className="iconStyle"
+                  />
+                </div>
+                <div className="CategoryStyle">Ice Cream</div>
+              </span>
+            ),
             key: "4",
             children: `Content of Tab Pane 3`,
           },
           {
-            label: `Sweets`,
+            label: (
+              <span>
+                <div className="iconSection">
+                  <img
+                    src="https://www.w3schools.com/howto/img_avatar.png"
+                    alt="All"
+                    className="iconStyle"
+                  />
+                </div>
+                <div className="CategoryStyle">Sweets</div>
+              </span>
+            ),
             key: "5",
+            children: `Content of Tab Pane 3`,
+          },
+          {
+            label: (
+              <span>
+                <div className="iconSection">
+                  <img
+                    src="https://www.w3schools.com/howto/img_avatar.png"
+                    alt="All"
+                    className="iconStyle"
+                  />
+                </div>
+                <div className="CategoryStyle">Drinks</div>
+              </span>
+            ),
+            key: "6",
             children: `Content of Tab Pane 3`,
           },
         ]}

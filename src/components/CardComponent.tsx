@@ -13,12 +13,13 @@ const CardComponent = (props: details) => {
     <>
       <Card
         hoverable
-        style={{ width: 150 }}
+        style={{ width: 200 }}
         cover={
           <Image
             preview={{ visible: false }}
             width={200}
-            src="https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp"
+            height={200}
+            src="https://chickenstock.net/wp-content/uploads/2022/02/Mighty-Zinger-2.jpg"
             onClick={() => setVisible(true)}
           />
         }
@@ -30,9 +31,9 @@ const CardComponent = (props: details) => {
         <Image.PreviewGroup
           preview={{ visible, onVisibleChange: (vis) => setVisible(vis) }}
         >
-          <Image src="https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp" />
-          <Image src="https://gw.alipayobjects.com/zos/antfincdn/cV16ZqzMjW/photo-1473091540282-9b846e7965e3.webp" />
-          <Image src="https://gw.alipayobjects.com/zos/antfincdn/x43I27A55%26/photo-1438109491414-7198515b166b.webp" />
+          <Image src="https://chickenstock.net/wp-content/uploads/2022/02/Mighty-Zinger-2.jpg" />
+          <Image src="https://chickenstock.net/wp-content/uploads/2022/02/Mighty-Zinger-Combo-Meal-3.jpg" />
+          <Image src="https://chickenstock.net/wp-content/uploads/2022/02/Mighty-Zinger-Box-3.jpg" />
         </Image.PreviewGroup>
       </div>
     </>

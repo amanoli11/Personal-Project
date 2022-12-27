@@ -1,4 +1,4 @@
-import { Layout } from "antd";
+import {Col, Row, Tabs } from "antd";
 import { Content } from "antd/es/layout/layout";
 import Sider from "antd/es/layout/Sider";
 import Categories from "./Categories";
@@ -7,20 +7,16 @@ import OrderList from "./OrderList";
 const Dashboard = () => {
   return (
     <div>
-      <Layout>
-        <Content>
-          <div>
+      <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+          <Col className="gutter-row" span={15} >
             <header className="App-header">
               <Categories />
             </header>
-          </div>
-        </Content>
-        <Sider>
-          <div>
+          </Col>
+          <Col className="gutter-row" span={9}>
             <OrderList />
-          </div>
-        </Sider>
-      </Layout>
+          </Col>
+      </Row>
     </div>
   );
 };
