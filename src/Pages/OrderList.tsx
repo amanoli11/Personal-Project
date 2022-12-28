@@ -1,7 +1,7 @@
 import { DeleteOutlined } from "@ant-design/icons";
 import { Button, Col, Row,Space } from "antd";
 import React from "react";
-import "../../styles/orderList.css";
+import "../styles/orderList.css";
 
 export default function OrderList() {
   return (

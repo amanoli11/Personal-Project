@@ -1,6 +1,6 @@
 import { Row } from "antd";
-import CardComponent from "../../components/CardComponent";
-import "../../styles/foodItems.css";
+import CardComponent from "../Components/CardComponent";
+import "../styles/foodItems.css";
 
 const FoodItems = () => {
   return (
@@ -29,7 +29,6 @@ const FoodItems = () => {
               price={25}
             />
           </div>
-          
         </Row>
       </div>
     </>

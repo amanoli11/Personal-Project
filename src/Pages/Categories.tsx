@@ -1,7 +1,7 @@
 import { AutoComplete, Col, Input, Row, Tabs } from "antd";
 import FoodItems from "./FoodItems";
 import { AndroidOutlined, AppleOutlined } from "@ant-design/icons";
-import "../../styles/categories.css";
+import "../styles/categories.css";
 
 const Categories = () => {
   const onChange = (key: string) => {

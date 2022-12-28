@@ -1,0 +1,27 @@
+.menuItems{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+    margin-bottom: 100%;
+    /* padding: 30%; */
+    transition: transform .3s linear;
+    cursor: pointer;
+    font-size: xx-large;
+    align-items: center;
+}
+
+li:hover {
+    background-color: rgb(51, 51, 180);
+    border-radius: 10%;
+    transform: scale(1.1);
+    align-items: center;
+}
+
+.children{
+    padding: 0.5%;
+}
