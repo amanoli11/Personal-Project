@@ -1,0 +1,35 @@
+.orderHeader {
+  border-radius: 1%;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  height: 4rem;
+}
+.title {
+  /* background-color: aqua; */
+  align-items: center;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+
+.icons {
+  /* background-color: brown; */
+  display: flex;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+
+.iconBox {
+  /* background-color: blue; */
+  /* margin: 1rem; */
+  padding: 2%;
+}
+
+.optionsSection{
+    margin-top: 0.8rem;
+    align-content: center;
+    align-items: center;
+}
+.OptionButtonStyle{
+    margin: 0.2rem;
+}
