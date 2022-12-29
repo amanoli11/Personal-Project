@@ -1,6 +1,6 @@
 import { Row } from "antd";
-import CardComponent from "../Components/CardComponent";
 import "../styles/foodItems.css";
+import CardComponent from "../components/CardComponent";
 
 const FoodItems = () => {
   return (
@@ -9,7 +9,7 @@ const FoodItems = () => {
         <h1>Food (44) items</h1>
         <Row>
           <div className="cardSection">
-            <CardComponent
+            <CardComponent 
               url="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
               name="Mighty Zinger"
               price={25}
