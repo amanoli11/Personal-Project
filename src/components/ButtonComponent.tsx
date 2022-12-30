@@ -1,17 +1,19 @@
 import React from "react";
 import { Button,Space } from "antd";
-
-export default function ButtonComponent() {
+import "../styles/buttonComponent.css"
+export default function ButtonComponent(props:
+  { name: string }
+) {
   return (
     <div>
-      <Space direction="vertical" style={{ width: "60%" }}>
+      <Space direction="vertical" style={{ width: "80%" }}>
         <Button
-          type="primary"
+          type="default"
           block
           size="middle"
           className="OptionButtonStyle"
         >
-          Primary
+          {props.name}
         </Button>
       </Space>
     </div>

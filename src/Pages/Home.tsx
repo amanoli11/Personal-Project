@@ -5,12 +5,12 @@ import OrderList from "./OrderList";
 const Home = () => {
   return (
     <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
-      <Col className="gutter-row" span={15}>
+      <Col className="gutter-row" span={17}>
         <header className="App-header">
           <Categories />
         </header>
       </Col>
-      <Col className="gutter-row" span={9}>
+      <Col className="gutter-row" span={7}>
         <OrderList />
       </Col>
     </Row>

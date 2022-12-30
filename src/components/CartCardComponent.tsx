@@ -1,35 +1,48 @@
+import { MinusOutlined, PlusOutlined } from "@ant-design/icons";
 import { Col, Image, Row } from "antd";
 import React, { useState } from "react";
+import theme from "../res/theme";
+import "../styles/cartCard.css"
 
 export default function CartCardComponent() {
   const [visible, setVisible] = useState(false);
 
   return (
-    <div>
+    <div className="card-section">
       <Row>
         <Col className="gutter-row" span={6}>
-          <Image
+          {/* <Image
             preview={{ visible: false }}
-            width={60}
+            width={70}
             src="https://gw.alipayobjects.com/zos/antfincdn/LlvErxo8H9/photo-1503185912284-5271ff81b9a8.webp"
             onClick={() => setVisible(true)}
-          />
+          /> */}
         </Col>
         <Col
           className="gutter-row"
           span={14}
           //   style={{ backgroundColor: "green" }}
         >
-          <div>
-            <h3>Zinger Box</h3>
-            <h2>5.095</h2>
+          <div style={{textAlign:'start',margin:'0.5rem'}}>
+            <p style={{fontSize:theme.fonts.xlarge}}>Zinger Box</p>
+            <h2>5.095$</h2>
           </div>
         </Col>
         <Col
           className="gutter-row"
           span={4}
-          style={{ backgroundColor: "blue" }}
-        ></Col>
+          // style={{ backgroundColor: "blue" }}
+        >
+          <div>
+          <PlusOutlined className="icon-style" />
+          </div>
+          <div>
+            <h3 style={{marginLeft:'40%',marginTop:'4%'}}>2</h3>
+          </div>
+          <div>
+          <MinusOutlined  className="icon-style"/>
+          </div>
+        </Col>
       </Row>
       <div style={{ display: "none" }}>
         <Image.PreviewGroup

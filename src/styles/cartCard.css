@@ -1,0 +1,24 @@
+.card-section{
+    background-color: #F7F7F7;
+    margin-top: 1rem;
+    /* margin: auto; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card-section:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.image-style{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.icon-style{
+    font-size: 16px; 
+    color: '#08c';
+    margin-left:40%;
+    margin-top:4%;
+    border-radius:50%;
+    background-color:rgb(177, 173, 173); 
+}

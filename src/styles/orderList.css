@@ -1,28 +1,23 @@
 .orderHeader {
-  border-radius: 1%;
-  border-color: black;
-  border-width: 3px;
-  border-style: solid;
-  height: 4rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 .title {
   /* background-color: aqua; */
   align-items: center;
   text-align: center;
   margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .icons {
-  /* background-color: brown; */
-  display: flex;
-  align-items: center;
-  margin-top: 0.6rem;
+  /* display: flex; */
+  /* align-items: center; */
+  margin-top: 0.7rem;
 }
 
 .iconBox {
-  /* background-color: blue; */
-  /* margin: 1rem; */
-  padding: 2%;
+  margin: 0.3rem;
 }
 
 .optionsSection{
