@@ -35,14 +35,14 @@ const ApplicationLayout = (props: { children?: JSX.Element | null }) => {
     <div
       style={{
         background: "#303136",
-        position: "absolute",
+        // position: "absolute",
         top: "0px",
         right: "0px",
         bottom: "0px",
         left: "0px",
       }}
     >
-      <div style={{ position: "inherit", marginLeft: "3%", marginTop: "1%" }}>
+      <div style={{ position: "inherit", marginLeft: "3%", marginTop: "0%" }}>
         <Avatar size="large" icon={<UserOutlined />} />
         <br />
         <br />
@@ -66,7 +66,7 @@ const ApplicationLayout = (props: { children?: JSX.Element | null }) => {
         style={{
           backgroundColor: "white",
           height: "98%",
-          marginTop: "0.5%",
+          // marginTop: "0.5%",
           marginRight: "0.5%",
           marginLeft: "7.5%",
           borderRadius: "20px",

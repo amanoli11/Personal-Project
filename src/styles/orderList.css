@@ -1,3 +1,6 @@
+.orderSection{
+  min-height: 100%;
+}
 .orderHeader {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
@@ -27,4 +30,54 @@
 }
 .OptionButtonStyle{
     margin: 0.2rem;
+}
+
+.sticky-section{
+  position: sticky;
+  top: 100%;
+}
+.totalPriceSection{
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.titleBox{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.3rem;
+}
+
+.priceBox{
+  
+}
+
+.paymentSection{
+  margin-top: 0.5rem;
+}
+.paymentBox{
+  margin-top: 0.8rem;
+}
+.parent-box{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.iconBox{
+  margin: 0 auto;
+}
+
+.bottomSection{
+  margin-top: 0.5rem;
+}
+.parent-bottom{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 5rem;
+}
+.parent-bottom .iconBox{
+  margin: 0 auto;
+  margin-top: 0.5rem;
+
 }
