@@ -143,6 +143,7 @@ export default function OrderList() {
             </Col>
           </Row>
         </div>
+
         <div className="bottomSection">
           <Row>
             <Col className="gutter-row" span={6}>
@@ -154,7 +155,7 @@ export default function OrderList() {
               </div>
             </Col>
             <Col className="gutter-row" span={18}>
-            <div className="parent-bottom" style={{backgroundColor:"#26729e"}}>
+            <div className="parent-bottom" style={{backgroundColor:"#26729e"}} id="totalId">
                 <div className="iconBox">
                   <h3 style={{color:'white'}}>Pay Rs 1000</h3>
                 </div>

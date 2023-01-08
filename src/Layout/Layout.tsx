@@ -35,7 +35,7 @@ const ApplicationLayout = (props: { children?: JSX.Element | null }) => {
     <div
       style={{
         background: "#303136",
-        // position: "absolute",
+        position: "absolute",
         top: "0px",
         right: "0px",
         bottom: "0px",
