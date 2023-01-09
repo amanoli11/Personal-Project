@@ -81,6 +81,11 @@ export default function OrderList() {
         <CartCardComponent />
         <CartCardComponent />
         <CartCardComponent />
+        <CartCardComponent />
+        <CartCardComponent />
+        <CartCardComponent />
+        <CartCardComponent />
+        <CartCardComponent />
       </div>
 
       <div className="sticky-section">
